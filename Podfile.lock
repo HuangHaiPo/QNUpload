@@ -1,0 +1,69 @@
+PODS:
+  - ACAlertController (1.0.0)
+  - ACMediaFrame (2.0.5):
+    - ACAlertController (~> 1.0.0)
+    - MWPhotoBrowser (~> 2.1.2)
+    - TZImagePickerController
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - DACircularProgress (2.3.1)
+  - HappyDNS (0.3.14)
+  - MBProgressHUD (0.9.2)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - Qiniu (7.2.5):
+    - HappyDNS (~> 0.3)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - TZImagePickerController (3.0.9)
+
+DEPENDENCIES:
+  - ACMediaFrame (~> 2.0.5)
+  - AFNetworking
+  - MBProgressHUD
+  - Qiniu (~> 7.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ACAlertController
+    - ACMediaFrame
+    - AFNetworking
+    - DACircularProgress
+    - HappyDNS
+    - MBProgressHUD
+    - MWPhotoBrowser
+    - Qiniu
+    - SDWebImage
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  ACAlertController: 10f0455c3e1691a6197b5cd0d96d6f9a03c82763
+  ACMediaFrame: 7b8e74e3fcb8d7cf46049bfe5756c6e556cca568
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  Qiniu: 909b408ee489ea54827e9717be90b94bc9dfbc48
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  TZImagePickerController: ea3e906af8caa7088f612ad673feb73cc6aa6bfc
+
+PODFILE CHECKSUM: dd3968d1d0c8a445622c2b657d1cdaf56f44e1a6
+
+COCOAPODS: 1.5.3
