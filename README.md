@@ -1,6 +1,9 @@
 # QNUpload
 七牛 单张或者多张上传图片
-效果
+
+
+效果:
+
 ![七牛上传图片.gif](https://upload-images.jianshu.io/upload_images/1483397-dcc4ffe76677f56c.gif?imageMogr2/auto-orient/strip)
 
 使用方法:
