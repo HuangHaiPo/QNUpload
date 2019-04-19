@@ -12,11 +12,12 @@
 
 ```
  [HuUploadImgManage qiNiuUploadToken:@"请求七牛token的URL" success:^(NSString * _Nonnull token) {
-            [HuUploadImgManage uploadMuchImage:_pictureArray view:self.view token:kToken success:^(NSArray * _Nonnull imgArrayUrl) {
-                NSLog(@"图片上传成功:%@",imgArrayUrl);
-            } failure:^(NSString * _Nonnull message) {
-                NSLog(@"%@",message);
-            }];
-            
-        }];
+      [HuUploadImgManage uploadMuchImage:_pictureArray view:self.view token:kToken success:^(NSArray * _Nonnull imgArrayUrl) {
+          NSLog(@"图片上传成功:%@",imgArrayUrl);
+      } failure:^(NSString * _Nonnull message) {
+          NSLog(@"%@",message);
+      }];
+
+  }];
 ```
+>PS:如有有疑问欢迎提问！
